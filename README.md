@@ -10,25 +10,26 @@ A curated catalog of **66 tools, skills, and integrations** for the [Hermes Agen
 
 ## Table of Contents
 
-* Overview
-* Classification Guide
-* Agent Skills & Workflow
-* AI Agent Platform
-* AI Image Generation
-* Browser & Desktop Automation
-* Communication & Customer Support
-* Context, Memory & Token Optimization
-* Database & Backend Infrastructure
-* Developer Tools & Engineering
-* Document & Presentation
-* Productivity & Project Management
-* Research & Intelligence
-* UI/UX & Visual Design
-* Video, Audio & Voice
-* Writing & Content Creation
-* Combination Guide
-* Avoid Matrix
-* Credits & Support
+* [Overview](#overview)
+* [Classification Guide](#classification-guide)
+* [Catalog at a Glance](#catalog-at-a-glance)
+* [Agent Skills & Workflow](#agent-skills--workflow)
+* [AI Agent Platform](#ai-agent-platform)
+* [AI Image Generation](#ai-image-generation)
+* [Browser & Desktop Automation](#browser--desktop-automation)
+* [Communication & Customer Support](#communication--customer-support)
+* [Context, Memory & Token Optimization](#context-memory--token-optimization)
+* [Database & Backend Infrastructure](#database--backend-infrastructure)
+* [Developer Tools & Engineering](#developer-tools--engineering)
+* [Document & Presentation](#document--presentation)
+* [Productivity & Project Management](#productivity--project-management)
+* [Research & Intelligence](#research--intelligence)
+* [UI/UX & Visual Design](#uiux--visual-design)
+* [Video, Audio & Voice](#video-audio--voice)
+* [Writing & Content Creation](#writing--content-creation)
+* [Combination Guide](#combination-guide)
+* [Avoid Matrix](#avoid-matrix)
+* [Credits & Support](#credits--support)
 
 ## Overview
 
@@ -51,6 +52,22 @@ A machine-readable version of the full catalog is available at [`data/catalog.cs
 | **Plugins** | Agent skills, MCP servers, and extensions. |
 | **App** | Standalone applications. |
 | **Code** | Libraries, frameworks, and CLIs. |
+
+## Catalog at a Glance
+
+A one-screen map of the full catalog. Each card represents one category and lists every entry with its **type** and **integration status**, using the notation below.
+
+Legend — integration: **●** Yes · **○** Conditional · **▫** Not directly · type: **P** Plugins · **A** App · **C** Code
+
+<table>
+<tr><td width="50%" valign="top"><strong><a href="#agent-skills--workflow">Agent Skills & Workflow</a></strong> (7)<br><sub>● bmad-method · P</sub><br><sub>● gsd · P</sub><br><sub>● gstack · P</sub><br><sub>● karpathy-guidelines · P</sub><br><sub>● prompt-master · P</sub><br><sub>● replica · P</sub><br><sub>● superpowers · P</sub></td><td width="50%" valign="top"><strong><a href="#ai-agent-platform">AI Agent Platform</a></strong> (3)<br><sub>○ multica-ai · A</sub><br><sub>○ open-hands · A</sub><br><sub>○ paperclip · A</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#ai-image-generation">AI Image Generation</a></strong> (1)<br><sub>○ comfy-ui · A</sub></td><td width="50%" valign="top"><strong><a href="#browser--desktop-automation">Browser & Desktop Automation</a></strong> (3)<br><sub>○ agent-browser · C</sub><br><sub>○ agent-desktop · C</sub><br><sub>● playwright-mcp · P</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#communication--customer-support">Communication & Customer Support</a></strong> (2)<br><sub>○ chatwoot · A</sub><br><sub>● i-have-adhd · P</sub></td><td width="50%" valign="top"><strong><a href="#context-memory--token-optimization">Context, Memory & Token Optimization</a></strong> (8)<br><sub>○ caveman · P</sub><br><sub>● claude-mem · P</sub><br><sub>● codegraph · P</sub><br><sub>● ecc · P</sub><br><sub>● graphify · P</sub><br><sub>○ headroom · C</sub><br><sub>○ rtk · C</sub><br><sub>● understand-anything · P</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#database--backend-infrastructure">Database & Backend Infrastructure</a></strong> (3)<br><sub>○ coolify · A</sub><br><sub>○ noco-db · A</sub><br><sub>○ supabase · A</sub></td><td width="50%" valign="top"><strong><a href="#developer-tools--engineering">Developer Tools & Engineering</a></strong> (6)<br><sub>● agent-skills · P</sub><br><sub>▫ awesome-mcp-servers · P</sub><br><sub>○ bruno · A</sub><br><sub>● github-mcp · P</sub><br><sub>○ ponytail · P</sub><br><sub>● skills · P</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#document--presentation">Document & Presentation</a></strong> (6)<br><sub>● archify · P</sub><br><sub>○ markitdown · C</sub><br><sub>○ pdf-me · C</sub><br><sub>○ ppt-master · A</sub><br><sub>○ presenton · A</sub><br><sub>○ unstract · A</sub></td><td width="50%" valign="top"><strong><a href="#productivity--project-management">Productivity & Project Management</a></strong> (4)<br><sub>○ appflowy · A</sub><br><sub>○ cal-com-cal-diy · A</sub><br><sub>● career-ops · P</sub><br><sub>○ open-project · A</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#research--intelligence">Research & Intelligence</a></strong> (7)<br><sub>○ Agent-reach · P</sub><br><sub>● last30days · P</sub><br><sub>○ open-notebook · A</sub><br><sub>○ rea · C</sub><br><sub>○ Scrapling · C</sub><br><sub>▫ syetem-prompt-n-tools-models · C</sub><br><sub>○ vane · A</sub></td><td width="50%" valign="top"><strong><a href="#uiux--visual-design">UI/UX & Visual Design</a></strong> (5)<br><sub>● diagram-design · P</sub><br><sub>● hallmark · P</sub><br><sub>● impeccable · P</sub><br><sub>● taste · P</sub><br><sub>● ui-ux-pro-max · P</sub></td></tr>
+<tr><td width="50%" valign="top"><strong><a href="#video-audio--voice">Video, Audio & Voice</a></strong> (6)<br><sub>○ auto-clip · A</sub><br><sub>○ hyperframes · C</sub><br><sub>● open-montage · P</sub><br><sub>○ openwhispr · A</sub><br><sub>○ remotion · C</sub><br><sub>○ voicestudio · A</sub></td><td width="50%" valign="top"><strong><a href="#writing--content-creation">Writing & Content Creation</a></strong> (5)<br><sub>● humanizer · P</sub><br><sub>● marketing-skills · P</sub><br><sub>● no-ai-slop · P</sub><br><sub>○ postiz · A</sub><br><sub>● stop-slop · P</sub></td></tr>
+</table>
 
 ## Agent Skills & Workflow
 
